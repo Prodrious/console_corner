@@ -112,7 +112,7 @@ export default function Home() {
       if (dataWhitelist.emails) setWhitelist(dataWhitelist.emails);
 
     } catch (err) {
-      console.error('Error fetching initial database elements:', err);
+      console.error('ERROR FETCHING INITATED database elements:', err);
       addToast('Failed to connect to MongoDB server APIs.', 'error');
     }
   };
